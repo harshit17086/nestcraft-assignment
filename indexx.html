@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feelaxo UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- New Panel -->
+        <aside class="new-panel">
+            <div class="profile-section">
+                <img src="profile_image.png" alt="Profile Image" class="profile-image">
+                <img src="hi.png" alt="User Image" class="user-image">
+                <h2>happy nest</h2>
+                <p>anands@yahoo.com</p>
+            </div>
+            <nav class="new-menu">
+                <!-- MAIN Section -->
+                <div class="section-heading">MAIN</div>
+                <ul>
+                    <li>Dashboard</li>
+                </ul>
+                <!-- GENERAL Section -->
+                <div class="section-heading">GENERAL</div>
+                <ul>
+                    <li>Business Profile</li>
+                    <li>POS</li>
+                    <li>Calender</li>
+                    <li>Appointments</li>
+                    <li>POS Plan</li>
+                    <li>Orders</li>
+                    <li>Status Screen</li>
+                    <li>Staff</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <aside class="sidebar">
+            <div class="sidebar-heading">
+                Add your services here
+            </div>
+            <nav class="menu">
+                <ul id="menu-list">
+                    <li draggable="true">
+                        <img src="upload.png" class="icon" alt="SPA">
+                        <a href="#" data-target="#spa">SPA Services</a>
+                    </li>
+                    <li draggable="true">
+                        <img src="user.png" class="icon" alt="Hair">
+                        <a href="#" data-target="#hair">Hair Services</a>
+                    </li>
+                    <li draggable="true">
+                        <img src="upload.png" class="icon" alt="Nail">
+                        <a href="#" data-target="#nail">Nail Services</a>
+                    </li>
+                    <li draggable="true">
+                        <img src="user.png" class="icon" alt="Wellness">
+                        <a href="#" data-target="#wellness">Wellness</a>
+                    </li>
+                </ul>
+                <button class="add-category-btn">
+                    Add Category
+                    <img src="message.png" alt="Message Icon" class="message-icon">
+                </button>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="services-section">
+                <div class="tab-content" id="spa">
+                    <table class="service-table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Regular</th>
+                            <th>Basic</th>
+                            <th>Advance</th>
+                            <th>Duration</th>
+                            <th>Gender</th>
+                        </tr>
+                        <!-- Add SPA services rows here -->
+                    </table>
+                    <div class="add-service-form">
+                        <input type="text" placeholder="Enter Service Name" class="name-input">
+                        <input type="text" placeholder="Enter Regular Amount" class="regular-input">
+                        <input type="text" placeholder="Enter Basic Amount" class="basic-input">
+                        <input type="text" placeholder="Enter Advance Amount" class="advance-input">
+                        <input type="text" placeholder="Enter Duration" class="duration-input">
+                        <select class="gender-select">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Both">Both</option>
+                        </select>
+                        <button class="add-row-btn">Add</button>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="hair">
+                    <table class="service-table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Regular</th>
+                            <th>Basic</th>
+                            <th>Advance</th>
+                            <th>Duration</th>
+                            <th>Gender</th>
+                        </tr>
+                        <!-- Hair services rows -->
+                    </table>
+                    <div class="add-service-form">
+                        <input type="text" placeholder="Enter Service Name" class="name-input">
+                        <input type="text" placeholder="Enter Regular Amount" class="regular-input">
+                        <input type="text" placeholder="Enter Basic Amount" class="basic-input">
+                        <input type="text" placeholder="Enter Advance Amount" class="advance-input">
+                        <input type="text" placeholder="Enter Duration" class="duration-input">
+                        <select class="gender-select">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Both">Both</option>
+                        </select>
+                        <button class="add-row-btn">Add</button>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="nail">
+                    <table class="service-table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Regular</th>
+                            <th>Basic</th>
+                            <th>Advance</th>
+                            <th>Duration</th>
+                            <th>Gender</th>
+                        </tr>
+                        <!-- Nail services rows -->
+                    </table>
+                    <div class="add-service-form">
+                        <input type="text" placeholder="Enter Service Name" class="name-input">
+                        <input type="text" placeholder="Enter Regular Amount" class="regular-input">
+                        <input type="text" placeholder="Enter Basic Amount" class="basic-input">
+                        <input type="text" placeholder="Enter Advance Amount" class="advance-input">
+                        <input type="text" placeholder="Enter Duration" class="duration-input">
+                        <select class="gender-select">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Both">Both</option>
+                        </select>
+                        <button class="add-row-btn">Add</button>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="wellness">
+                    <table class="service-table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Regular</th>
+                            <th>Basic</th>
+                            <th>Advance</th>
+                            <th>Duration</th>
+                            <th>Gender</th>
+                        </tr>
+                        <!-- Wellness services rows -->
+                    </table>
+                    <div class="add-service-form">
+                        <input type="text" placeholder="Enter Service Name" class="name-input">
+                        <input type="text" placeholder="Enter Regular Amount" class="regular-input">
+                        <input type="text" placeholder="Enter Basic Amount" class="basic-input">
+                        <input type="text" placeholder="Enter Advance Amount" class="advance-input">
+                        <input type="text" placeholder="Enter Duration" class="duration-input">
+                        <select class="gender-select">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Both">Both</option>
+                        </select>
+                        <button class="add-row-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="category-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <form id="category-form">
+                <div id="upload-panel">
+                    <img src="upload.png" alt="Upload Image" class="upload-icon">
+                    <p class="upload-text">Drag and drop an image here or click to upload</p>
+                    <input type="file" id="upload-image" accept="image/*">
+                </div>
+                <input type="text" class="popup-category-input" placeholder="Enter Category Name">
+                <button type="submit">Add Category</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
